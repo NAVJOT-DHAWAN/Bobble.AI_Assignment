@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.mb-0{
+  font-size: 15px;
+}
+.myform{
+  margin-top: 30px;
+}
+.form-text{
+  margin-bottom: 15px;
+}
+.form-group{
+  margin: 0 334px;
+}
+.small{
+  float: right;
+}
+
+.socialLogin{
+  margin-top: 10px;
+  margin: 0 334px;
+}
+.socialLogin .otherOptions{
+  margin-top: 22px;
+  margin-left: 170px;
+  font-size: smaller;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 121px;
+  text-align:center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 50px;
+  margin-left: 0;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+
+.form-row{
+ margin-left: 30%;
+}
+
+.form-row .col2{
+ width: 28%;
+}
+
+.form-row .col4{
+  width: 28%;
+}
+
+div.horizontalgap {
+  /* float: left; */
+  overflow: hidden;
+  height: 1%;
+  width: 1%;
+}
